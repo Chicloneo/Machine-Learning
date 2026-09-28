@@ -1,0 +1,46 @@
+# Entorno virtual local generado por uv
+.venv/
+
+# Caché y archivos binarios compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Archivos específicos de macOS
+.DS_Store
+
+# Archivos de configuración locales / Secretos
+.env
+.env.*
+
+# Carpetas de construcción y distribución (si creas paquetes)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Configuraciones de editores (Opcional, descomenta si los usas)
+# .vscode/
+# .idea/
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.swp
