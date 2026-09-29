@@ -7,7 +7,13 @@ authors = [
     { name = "Santiago Lillo Macías", email = "santilillomacias@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "pathlib>=1.0.1",
+    "scikit-learn>=1.6.1",
+]
 
 [project.scripts]
 entregable-ml = "entregable_ml:main"
