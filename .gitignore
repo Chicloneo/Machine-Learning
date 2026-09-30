@@ -1,30 +1,85 @@
-# === macOS ===
+# ==========================================
+# GIT & CONFIGURACIÓN
+# ==========================================
+.git/
+*.git
+.gitattributes
+.gitignore_global
+
+
+# ==========================================
+# ENTORNOS VIRTUALES (PYTHON)
+# ==========================================
+# Carpetas comunes de entornos virtuales
+.venv/
+venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuración de herramientas de entornos virtuales (Pipenv, Poetry, Hatch)
+.Pipfile
+Pipfile.lock
+.poetry/
+poetry.lock
+.pdm*
+.hatch/
+
+
+# ==========================================
+# PYTHON (COMPILACIÓN, CACHÉ Y ARCHIVOS)
+# ==========================================
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / Empaquetado
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook (Archivos temporales)
+.ipynb_checkpoints
+
+# Pruebas, Cobertura y Linters (pytest, coverage, mypy)
+htmlcov/
+.tox/
+.nosetests/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ==========================================
+# SISTEMA OPERATIVO & EDITORES (Incluye macOS)
+# ==========================================
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon_
-._*
-.Spotlight-V100
-.Trashes
-
-# === Windows ===
 Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.lnk
-
-# === Linux ===
-*~
-.fuse_hidden*
-.directory
-.trash
-
-# === Archivos de Editores e IDEs comunes ===
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.swp
