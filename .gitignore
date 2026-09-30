@@ -1,0 +1,30 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+.Spotlight-V100
+.Trashes
+
+# === Windows ===
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+# === Linux ===
+*~
+.fuse_hidden*
+.directory
+.trash
+
+# === Archivos de Editores e IDEs comunes ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
