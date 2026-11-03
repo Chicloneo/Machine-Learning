@@ -2,6 +2,8 @@
 
 Auxiliary proofs for building theoretical concepts.
 
+These works are written by myself.
+
 ## Contents
 
 * [Estimation of the minimun $(\hat{\beta}_0, \hat{\beta}_1)$ in Ordinary Least Squares](OLS_estimacion.pdf)
